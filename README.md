@@ -75,8 +75,7 @@ Network URL: http://10.0.0.201:8501 <br>
 - Pre-processing: Make all objects/strings upper case to avoid duplicates.  
 - Pre-processing and Feature Engineering on 'Crash Date/Time':
   - Pre-processing: Converting 'Crash Date/Time' into a datetime format.
-  - Feature Engineering: Creating new features like 'Year', 'Month', 'Day', 'DayOfWeek', 'Hour', and 'TimeOfDay' from the datetime data.
-<br> 
+  - Feature Engineering: Creating new features like 'Year', 'Month', 'Day', 'DayOfWeek', 'Hour', and 'TimeOfDay' from the datetime data. 
 - Feature Engineering: Mapped 'Injury Severity' (target variable, y) categorical values to the following:
    - 'FATAL INJURY': 4
    - 'SUSPECTED SERIOUS INJURY': 3
